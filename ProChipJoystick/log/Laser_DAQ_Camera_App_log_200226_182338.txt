@@ -1,0 +1,21 @@
+2020-02-26T18:23:55|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\Camera_dual_save_dvp.py", line 233, in run
+    self.image_h5_1[index, :, :] = self.image_on_the_run  # saving to the h5 dataset
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\dataset.py", line 609, in __setitem__
+    selection = sel.select(self.shape, args, dsid=self.id)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\selections.py", line 94, in select
+    sel[args]
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\selections.py", line 261, in __getitem__
+    start, count, step, scalar = _handle_simple(self.shape,args)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\selections.py", line 451, in _handle_simple
+    x,y,z = _translate_int(int(arg), length)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\selections.py", line 471, in _translate_int
+    raise ValueError("Index (%s) out of range (0-%s)" % (exp, length-1))
+ValueError: Index (100) out of range (0-99)
+

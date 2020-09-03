@@ -1,0 +1,17 @@
+2019-06-25T15:27:56|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\Laser_DAQ_Camera_App.py", line 43, in <module>
+    app = Laser_DAQ_Camera_App(sys.argv)
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 16, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 332, in __init__
+    self.setup()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\Laser_DAQ_Camera_App.py", line 26, in setup
+    self.add_measurement(SyncreadoutTriggerMeasurement(self))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 93, in __init__
+    self.setup()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 20, in setup
+    self.laser_1 = self.app.hardware['Laser_1']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\helper_funcs.py", line 31, in __getitem__
+    return self._odict[key]
+KeyError: 'Laser_1'
+

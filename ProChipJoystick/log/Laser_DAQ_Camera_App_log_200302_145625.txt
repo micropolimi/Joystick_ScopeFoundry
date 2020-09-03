@@ -1,0 +1,27 @@
+2020-03-02T14:56:26|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\ProChipJoystick\ProChipJoystickApp.py", line 52, in <module>
+    app = ProChipJoystickApp(sys.argv)
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 16, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 332, in __init__
+    self.setup()
+  File "C:\LabPrograms\Python\ProChipJoystick\ProChipJoystickApp.py", line 29, in setup
+    self.add_measurement(SyncreadoutTriggerJoystickCounterMeasurement(self))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 93, in __init__
+    self.setup()
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 40, in setup
+    self.ui = load_qt_ui_file(self.ui_filename)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\helper_funcs.py", line 64, in load_qt_ui_file
+    ui = uic.loadUi(ui_filename)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\PyQt5\uic\__init__.py", line 226, in loadUi
+    return DynamicUILoader(package).loadUi(uifile, baseinstance, resource_suffix)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\PyQt5\uic\Loader\loader.py", line 72, in loadUi
+    return self.parse(filename, resource_suffix, basedir)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\PyQt5\uic\uiparser.py", line 1013, in parse
+    document = parse(filename)
+  File "C:\ProgramData\Anaconda3\lib\xml\etree\ElementTree.py", line 1197, in parse
+    tree.parse(source, parser)
+  File "C:\ProgramData\Anaconda3\lib\xml\etree\ElementTree.py", line 587, in parse
+    source = open(source, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\LabPrograms\\Python\\ProChipJoystick\\DualColor.ui'
+

@@ -1,0 +1,279 @@
+2019-12-09T16:30:59|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:30:59|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:00|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:00|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:00|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:00|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:01|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:01|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:01|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:01|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:03|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:03|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:04|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:04|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:04|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:05|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:05|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:05|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:09|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:09|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:09|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:10|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:10|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:10|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:10|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:11|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:11|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:12|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:12|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:12|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+
+2019-12-09T16:31:12|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\hardware.py", line 182, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\logged_quantity.py", line 163, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\joystick_hardware\joystick_device.py", line 66, in get_hat_values
+    return hats[index][0]
+IndexError: list index out of range
+

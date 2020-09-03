@@ -1,0 +1,13 @@
+2019-06-25T17:37:49|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\Laser_DAQ_Camera_App.py", line 46, in <module>
+    app = Laser_DAQ_Camera_App(sys.argv)
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 16, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 334, in __init__
+    self.setup_default_ui()
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 56, in setup_default_ui
+    measure.setup_figure()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\temp_measurement2.py", line 33, in setup_figure
+    self.ui_plots1.channel1_groupBox.layout().addWidget(self.imv1)
+AttributeError: 'TempMeasurement2' object has no attribute 'ui_plots1'
+

@@ -1,0 +1,9 @@
+2019-06-04T15:40:50|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\temp_measurement.py", line 94, in run
+    self.settings['progress'] = index*100./self.camera.number_frames_on_the_run
+TypeError: unsupported operand type(s) for /: 'float' and 'LoggedQuantity'
+

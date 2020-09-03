@@ -1,0 +1,22 @@
+2019-12-18T19:04:20|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T19:04:26|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpDevice.py", line 123, in set_save_p
+    C_error = lib_mfcs.mfcs_set_auto(c_ulonglong(self.mfcsHandle),i,self.saved_pressure(i))
+TypeError: 'list' object is not callable
+
+2019-12-18T19:04:28|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpDevice.py", line 123, in set_save_p
+    C_error = lib_mfcs.mfcs_set_auto(c_ulonglong(self.mfcsHandle),i,self.saved_pressure(i))
+TypeError: 'list' object is not callable
+
+2019-12-18T19:04:29|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpDevice.py", line 123, in set_save_p
+    C_error = lib_mfcs.mfcs_set_auto(c_ulonglong(self.mfcsHandle),i,self.saved_pressure(i))
+TypeError: 'list' object is not callable
+

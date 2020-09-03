@@ -1,0 +1,4 @@
+2019-12-10T17:02:32|WARNING|LoggedQuantity|sine_data read_from_hardware called when not connected to hardware
+2019-12-10T17:02:33|WARNING|LoggedQuantity|sine_data read_from_hardware called when not connected to hardware
+2019-12-10T17:02:33|WARNING|LoggedQuantity|sine_data read_from_hardware called when not connected to hardware
+2019-12-10T17:02:33|WARNING|LoggedQuantity|sine_data read_from_hardware called when not connected to hardware

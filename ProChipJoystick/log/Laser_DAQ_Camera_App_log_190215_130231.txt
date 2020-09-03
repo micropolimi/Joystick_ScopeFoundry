@@ -1,0 +1,9 @@
+2019-02-15T13:04:35|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 37, in run
+    self.start_triggered_Acquisition(freq=200)
+TypeError: start_triggered_Acquisition() got an unexpected keyword argument 'freq'
+

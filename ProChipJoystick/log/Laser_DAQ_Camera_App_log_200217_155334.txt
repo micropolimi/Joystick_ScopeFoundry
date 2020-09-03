@@ -1,0 +1,52 @@
+2020-02-17T15:54:58|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerCounterMeasurement_dvp.py", line 186, in run
+    [frames, dims] = self.camera.hamamatsu.getLastTotFrames()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 1214, in getLastTotFrames
+    hc_data.copyData(paramlock.buf)
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 308, in copyData
+    ctypes.memmove(self.np_array.ctypes.data, address, self.size) #copies self.size bytes from address into self.np_array.ctyps.data
+OSError: exception: access violation reading 0x0000000000000000
+
+2020-02-17T15:55:29|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerCounterMeasurement_dvp.py", line 186, in run
+    [frames, dims] = self.camera.hamamatsu.getLastTotFrames()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 1214, in getLastTotFrames
+    hc_data.copyData(paramlock.buf)
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 308, in copyData
+    ctypes.memmove(self.np_array.ctypes.data, address, self.size) #copies self.size bytes from address into self.np_array.ctyps.data
+OSError: exception: access violation reading 0x0000000000000000
+
+2020-02-17T15:55:58|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerCounterMeasurement_dvp.py", line 186, in run
+    [frames, dims] = self.camera.hamamatsu.getLastTotFrames()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 1214, in getLastTotFrames
+    hc_data.copyData(paramlock.buf)
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 308, in copyData
+    ctypes.memmove(self.np_array.ctypes.data, address, self.size) #copies self.size bytes from address into self.np_array.ctyps.data
+OSError: exception: access violation reading 0x0000000000000000
+
+2020-02-17T15:56:36|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerCounterMeasurement_dvp.py", line 186, in run
+    [frames, dims] = self.camera.hamamatsu.getLastTotFrames()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 1214, in getLastTotFrames
+    hc_data.copyData(paramlock.buf)
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 308, in copyData
+    ctypes.memmove(self.np_array.ctypes.data, address, self.size) #copies self.size bytes from address into self.np_array.ctyps.data
+OSError: exception: access violation reading 0x0000000000000000
+

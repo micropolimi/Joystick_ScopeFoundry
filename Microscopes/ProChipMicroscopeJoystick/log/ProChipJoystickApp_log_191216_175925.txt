@@ -1,0 +1,78 @@
+2019-12-16T18:00:32|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\SyncreadoutTriggerJoystickMeasurement.py", line 54, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq'])
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerMeasurement.py", line 312, in start_triggered_Acquisition
+    self.start_digital_rising_edge(self.ni_do_1)
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerMeasurement.py", line 246, in start_digital_rising_edge
+    digitalHW.write_value()
+  File "C:\LabPrograms\Python\nidaqmx_test\ni_do_hardware.py", line 44, in write_value
+    self.DO_device.write(self.value.val)
+AttributeError: 'NI_DO_hw' object has no attribute 'DO_device'
+
+2019-12-16T18:00:41|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\SyncreadoutTriggerJoystickMeasurement.py", line 54, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq'])
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerMeasurement.py", line 312, in start_triggered_Acquisition
+    self.start_digital_rising_edge(self.ni_do_1)
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerMeasurement.py", line 246, in start_digital_rising_edge
+    digitalHW.write_value()
+  File "C:\LabPrograms\Python\nidaqmx_test\ni_do_hardware.py", line 44, in write_value
+    self.DO_device.write(self.value.val)
+AttributeError: 'NI_DO_hw' object has no attribute 'DO_device'
+
+2019-12-16T18:00:42|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T18:00:47|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T18:00:47|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\SyncreadoutTriggerJoystickMeasurement.py", line 54, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq'])
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerMeasurement.py", line 312, in start_triggered_Acquisition
+    self.start_digital_rising_edge(self.ni_do_1)
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerMeasurement.py", line 246, in start_digital_rising_edge
+    digitalHW.write_value()
+  File "C:\LabPrograms\Python\nidaqmx_test\ni_do_hardware.py", line 44, in write_value
+    self.DO_device.write(self.value.val)
+AttributeError: 'NI_DO_hw' object has no attribute 'DO_device'
+
+2019-12-16T18:00:50|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T18:00:50|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\SyncreadoutTriggerJoystickMeasurement.py", line 54, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq'])
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerMeasurement.py", line 312, in start_triggered_Acquisition
+    self.start_digital_rising_edge(self.ni_do_1)
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerMeasurement.py", line 246, in start_digital_rising_edge
+    digitalHW.write_value()
+  File "C:\LabPrograms\Python\nidaqmx_test\ni_do_hardware.py", line 44, in write_value
+    self.DO_device.write(self.value.val)
+AttributeError: 'NI_DO_hw' object has no attribute 'DO_device'
+
+2019-12-16T18:00:55|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\SyncreadoutTriggerJoystickMeasurement.py", line 54, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq'])
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerMeasurement.py", line 312, in start_triggered_Acquisition
+    self.start_digital_rising_edge(self.ni_do_1)
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerMeasurement.py", line 246, in start_digital_rising_edge
+    digitalHW.write_value()
+  File "C:\LabPrograms\Python\nidaqmx_test\ni_do_hardware.py", line 44, in write_value
+    self.DO_device.write(self.value.val)
+AttributeError: 'NI_DO_hw' object has no attribute 'DO_device'
+

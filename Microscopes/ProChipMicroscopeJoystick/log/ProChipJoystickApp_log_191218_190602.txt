@@ -1,0 +1,7 @@
+2019-12-18T19:06:13|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpDevice.py", line 115, in save_p
+    print(self.saved_pressure(1))
+TypeError: 'list' object is not callable
+

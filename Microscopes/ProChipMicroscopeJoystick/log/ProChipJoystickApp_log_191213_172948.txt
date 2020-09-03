@@ -1,0 +1,21 @@
+2019-12-13T17:29:49|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\ProChipJoystickApp.py", line 22, in <module>
+    app = ProChipJoystickApp(sys.argv)
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 16, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 332, in __init__
+    self.setup()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\ProChipJoystickApp.py", line 16, in setup
+    self.add_measurement(SyncreadoutTriggerJoystickMeasurement(self))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 93, in __init__
+    self.setup()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\SyncreadoutTriggerJoystickMeasurement.py", line 15, in setup
+    super().setup()
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerMeasurement.py", line 50, in setup
+    super().setup()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraMeasurement.py", line 36, in setup
+    self.camera = self.app.hardware['HamamatsuHardware']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\helper_funcs.py", line 31, in __getitem__
+    return self._odict[key]
+KeyError: 'HamamatsuHardware'
+

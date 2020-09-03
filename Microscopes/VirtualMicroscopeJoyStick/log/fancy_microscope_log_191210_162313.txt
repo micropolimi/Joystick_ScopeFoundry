@@ -1,0 +1,12 @@
+2019-12-10T16:23:14|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\Microscopes\VirtualMicroscopeJoyStick\JoystickApp.py", line 44, in <module>
+    app = FancyMicroscopeApp(sys.argv)
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\base_app.py", line 338, in __init__
+    self.setup()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\Microscopes\VirtualMicroscopeJoyStick\JoystickApp.py", line 27, in setup
+    from Microscopes.VirtualMicroscopeJoyStick.SineGenJoyStick_measure import SineWaveJoyStickMeasure
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\Microscopes\VirtualMicroscopeJoyStick\SineGenJoyStick_measure.py", line 102
+    + self.joystick.joystick_dev.get_hat_values(1)
+    ^
+IndentationError: unexpected indent
+

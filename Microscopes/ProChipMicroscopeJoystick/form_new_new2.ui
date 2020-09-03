@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>681</width>
+    <height>728</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2" rowstretch="0,0">
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="channel2_groupBox">
+     <property name="title">
+      <string>channel2</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout"/>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="Visualization_groupBox">
+     <property name="title">
+      <string>Visualization</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QCheckBox" name="autoRange2_checkBox">
+        <property name="text">
+         <string>autoRange2</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QCheckBox" name="autoLevels2_checkBox">
+        <property name="text">
+         <string>autoLevels2</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="min2_doubleSpinBox"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_max">
+        <property name="text">
+         <string>min</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDoubleSpinBox" name="max2_doubleSpinBox"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_min">
+        <property name="text">
+         <string>max</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+     <zorder>label_max</zorder>
+     <zorder>autoLevels2_checkBox</zorder>
+     <zorder>min2_doubleSpinBox</zorder>
+     <zorder>max2_doubleSpinBox</zorder>
+     <zorder>label_min</zorder>
+     <zorder>autoRange2_checkBox</zorder>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

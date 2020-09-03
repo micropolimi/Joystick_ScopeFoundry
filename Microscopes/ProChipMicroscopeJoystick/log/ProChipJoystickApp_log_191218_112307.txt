@@ -1,0 +1,22 @@
+2019-12-18T11:23:31|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\joystick_hardware\joystick_hd.py", line 48, in connect
+    read_func  = self.joystick_dev.get_button_values(2)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 634, in connect_to_hardware
+    assert callable(read_func)
+AssertionError
+
+2019-12-18T11:23:35|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\joystick_hardware\joystick_hd.py", line 48, in connect
+    read_func  = self.joystick_dev.get_button_values(2)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 634, in connect_to_hardware
+    assert callable(read_func)
+AssertionError
+

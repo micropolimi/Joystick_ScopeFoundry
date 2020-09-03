@@ -1,0 +1,11 @@
+2019-02-07T17:32:45|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\Users\Admin\eclipse-workspace\Laser_DAQ_Camera\DaqControlledMeasurement.py", line 60, in run
+    self.set_all_parameters()
+  File "C:\Users\Admin\eclipse-workspace\Laser_DAQ_Camera\DaqControlledMeasurement.py", line 228, in set_all_parameters
+    self.ni_do.write_value()()
+TypeError: 'NoneType' object is not callable
+

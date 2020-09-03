@@ -1,0 +1,9 @@
+2019-02-06T10:57:11|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Admin\eclipse-workspace\Laser_DAQ_Camera\Laser_DAQ_Camera_App.py", line 28, in <module>
+    app = Laser_DAQ_Camera_App(sys.argv)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 332, in __init__
+    self.setup()
+  File "C:\Users\Admin\eclipse-workspace\Laser_DAQ_Camera\Laser_DAQ_Camera_App.py", line 9, in setup
+    from CameraHardware import HamamatsuHardware
+ModuleNotFoundError: No module named 'CameraHardware'
+

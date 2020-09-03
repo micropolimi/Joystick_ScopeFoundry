@@ -1,0 +1,9 @@
+2020-02-26T18:06:38|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\Camera_dual_save_dvp.py", line 237, in run
+    self.image_h5_1[index, :, :] = self.image_on_the_run_odd  # saving to the h5 dataset
+AttributeError: 'Camera_dual_save' object has no attribute 'image_on_the_run_odd'
+

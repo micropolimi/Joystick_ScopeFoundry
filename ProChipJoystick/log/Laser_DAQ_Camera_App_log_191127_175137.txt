@@ -1,0 +1,13 @@
+2019-11-27T17:51:38|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\Laser_DAQ_Camera_App.py", line 43, in <module>
+    app = Laser_DAQ_Camera_App(sys.argv)
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 16, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 334, in __init__
+    self.setup_default_ui()
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 56, in setup_default_ui
+    measure.setup_figure()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 39, in setup_figure
+    self.ui_plots2.channel2_groupBox.layout().addWidget(self.imv2)
+AttributeError: 'QWidget' object has no attribute 'channel2_groupBox'
+

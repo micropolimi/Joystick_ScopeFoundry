@@ -1,0 +1,13 @@
+2020-02-05T18:20:18|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\TempCounterMeasurement.py", line 96, in run
+    self.get_cell_nr(self.np_data,self.settings.counter_threshold.val)
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\TempCounterMeasurement.py", line 19, in get_cell_nr
+    frame_max=pd.max(frame)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\__init__.py", line 262, in __getattr__
+    raise AttributeError(f"module 'pandas' has no attribute '{name}'")
+AttributeError: module 'pandas' has no attribute 'max'
+

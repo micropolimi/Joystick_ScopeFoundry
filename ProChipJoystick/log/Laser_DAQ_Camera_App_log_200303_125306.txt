@@ -1,0 +1,43 @@
+2020-03-03T12:54:26|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 139, in saving_pressure_3
+    self.saved_pressures[2] = self.set_pressure_3.val
+IndexError: list assignment index out of range
+
+2020-03-03T12:54:33|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 146, in saving_pressure_4
+    self.saved_pressures[3] = self.set_pressure_4.val
+IndexError: list assignment index out of range
+
+2020-03-03T12:54:42|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 139, in saving_pressure_3
+    self.saved_pressures[2] = self.set_pressure_3.val
+IndexError: list assignment index out of range
+
+2020-03-03T12:54:57|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 146, in saving_pressure_4
+    self.saved_pressures[3] = self.set_pressure_4.val
+IndexError: list assignment index out of range
+
+2020-03-03T12:55:02|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 118, in setting_saved_pressure
+    self.settings["set_pressure_3"] = self.saved_pressures[2]
+IndexError: list index out of range
+
+2020-03-03T12:55:04|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 118, in setting_saved_pressure
+    self.settings["set_pressure_3"] = self.saved_pressures[2]
+IndexError: list index out of range
+
+2020-03-03T12:55:16|ERROR|SyncreadoutTriggerJoystickCounterMeasurement|SyncreadoutTriggerJoystickCounterMeasurement Failed to update figure1: 'JoyStick_HW' object has no attribute 'joystick_dev'. ['Traceback (most recent call last):\n', '  File "C:\\ProgramData\\Anaconda3\\lib\\site-packages\\ScopeFoundry\\measurement.py", line 273, in _on_display_update_timer\n    self.update_display()\n', '  File "C:\\LabPrograms\\Python\\ProChipJoystick\\SyncreadoutTriggerJoystickCounterMeasurement.py", line 348, in update_display\n    if (self.joystick_hw.joystick_dev.get_hat_values(1) or self.joystick_hw.joystick_dev.get_hat_values(0)) and not self.button_pressed_before:\n', "AttributeError: 'JoyStick_HW' object has no attribute 'joystick_dev'\n"]

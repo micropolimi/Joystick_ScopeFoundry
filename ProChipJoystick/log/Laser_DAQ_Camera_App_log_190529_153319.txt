@@ -1,0 +1,93 @@
+2019-05-29T16:21:20|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 46, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq']) #Insert here the variable!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 230, in start_triggered_Acquisition
+    self.start_laser(self.laser_1)
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 165, in start_laser
+    laserHW.laser_status.write_to_hardware()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 174, in write_to_hardware
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 155, in set_laser_status
+    fullresp = self.write_cmd('SOURce:AM:STATe '+cmd) # cmd = ON|OFF
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 25, in write_cmd
+    self.ser.write(serialcmd.encode())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 315, in write
+    raise SerialException("WriteFile failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: WriteFile failed (PermissionError(13, 'Il dispositivo non riconosce il comando.', None, 22))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 150, in run
+    self.stop_triggered_Acquisition()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 242, in stop_triggered_Acquisition
+    self.stop_laser(self.laser_1)
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 173, in stop_laser
+    laserHW.laser_status.write_to_hardware()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 174, in write_to_hardware
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 155, in set_laser_status
+    fullresp = self.write_cmd('SOURce:AM:STATe '+cmd) # cmd = ON|OFF
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 25, in write_cmd
+    self.ser.write(serialcmd.encode())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 315, in write
+    raise SerialException("WriteFile failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: WriteFile failed (PermissionError(13, 'Il dispositivo non riconosce il comando.', None, 22))
+
+2019-05-29T16:22:12|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 181, in read_from_hardware
+    lq.read_from_hardware()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 161, in read_from_hardware
+    val = self.hardware_read_func()
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 60, in get_model
+    fullresp = self.write_cmd('SYSTem1:INFormation:MODel?')
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 25, in write_cmd
+    self.ser.write(serialcmd.encode())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 315, in write
+    raise SerialException("WriteFile failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: WriteFile failed (PermissionError(13, 'Il dispositivo non riconosce il comando.', None, 22))
+
+2019-05-29T16:22:17|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 46, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq']) #Insert here the variable!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 230, in start_triggered_Acquisition
+    self.start_laser(self.laser_1)
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 165, in start_laser
+    laserHW.laser_status.write_to_hardware()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 174, in write_to_hardware
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 155, in set_laser_status
+    fullresp = self.write_cmd('SOURce:AM:STATe '+cmd) # cmd = ON|OFF
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 25, in write_cmd
+    self.ser.write(serialcmd.encode())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 315, in write
+    raise SerialException("WriteFile failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: WriteFile failed (PermissionError(13, 'Il dispositivo non riconosce il comando.', None, 22))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 150, in run
+    self.stop_triggered_Acquisition()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 242, in stop_triggered_Acquisition
+    self.stop_laser(self.laser_1)
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 173, in stop_laser
+    laserHW.laser_status.write_to_hardware()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 174, in write_to_hardware
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 155, in set_laser_status
+    fullresp = self.write_cmd('SOURce:AM:STATe '+cmd) # cmd = ON|OFF
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 25, in write_cmd
+    self.ser.write(serialcmd.encode())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 315, in write
+    raise SerialException("WriteFile failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: WriteFile failed (PermissionError(13, 'Il dispositivo non riconosce il comando.', None, 22))
+

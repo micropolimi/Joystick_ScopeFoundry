@@ -1,0 +1,9 @@
+2020-02-05T18:18:34|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\TempCounterMeasurement.py", line 96, in run
+    self.get_cell_nr(self.np_data1,self.settings.counter_threshold.val)
+AttributeError: 'TempCounterMeasurement' object has no attribute 'np_data1'
+

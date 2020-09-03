@@ -1,0 +1,20 @@
+2019-02-13T15:33:59|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\DaqControlledMeasurement.py", line 35, in run
+    self.start_triggered_Acquisition()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\DaqControlledMeasurement.py", line 240, in start_triggered_Acquisition
+    self.start_triggered_counter_task(self.ni_co_1, initial_delay=0.00000)
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\DaqControlledMeasurement.py", line 220, in start_triggered_counter_task
+    counterHW.initial_delay.val=inital_delay # probably in start trigger mode there is no delay so counter 1 should have an initial delay = 0
+NameError: name 'inital_delay' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\DaqControlledMeasurement.py", line 176, in run
+    self.h5file.close() # close h5 file
+AttributeError: 'DaqControlledMeasurement' object has no attribute 'h5file'
+

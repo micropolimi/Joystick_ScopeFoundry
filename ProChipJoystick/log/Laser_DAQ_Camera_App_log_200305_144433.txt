@@ -1,0 +1,64 @@
+2020-03-05T14:44:48|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 189, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq'])
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 574, in start_triggered_Acquisition
+    self.camera.hamamatsu.startAcquisition()
+AttributeError: 'HamamatsuHardware' object has no attribute 'hamamatsu'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 321, in run
+    self.stop_triggered_Acquisition()
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 596, in stop_triggered_Acquisition
+    self.camera.hamamatsu.stopAcquisition()
+AttributeError: 'HamamatsuHardware' object has no attribute 'hamamatsu'
+
+2020-03-05T14:45:02|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraHardware.py", line 115, in connect
+    binning = self.binning.val, hardware = self) #maybe with more cameras we have to change
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 337, in __init__
+    raise DCAMException("DCAM initialization failed with error code " + str(error_code))
+Hamamatsu_ScopeFoundry.CameraDevice.DCAMException: DCAM initialization failed with error code -2147483130
+
+2020-03-05T14:45:13|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraHardware.py", line 115, in connect
+    binning = self.binning.val, hardware = self) #maybe with more cameras we have to change
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 337, in __init__
+    raise DCAMException("DCAM initialization failed with error code " + str(error_code))
+Hamamatsu_ScopeFoundry.CameraDevice.DCAMException: DCAM initialization failed with error code -2147483130
+
+2020-03-05T14:45:14|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraHardware.py", line 115, in connect
+    binning = self.binning.val, hardware = self) #maybe with more cameras we have to change
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 337, in __init__
+    raise DCAMException("DCAM initialization failed with error code " + str(error_code))
+Hamamatsu_ScopeFoundry.CameraDevice.DCAMException: DCAM initialization failed with error code -2147483130
+
+2020-03-05T14:45:15|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraHardware.py", line 115, in connect
+    binning = self.binning.val, hardware = self) #maybe with more cameras we have to change
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 337, in __init__
+    raise DCAMException("DCAM initialization failed with error code " + str(error_code))
+Hamamatsu_ScopeFoundry.CameraDevice.DCAMException: DCAM initialization failed with error code -2147483130
+

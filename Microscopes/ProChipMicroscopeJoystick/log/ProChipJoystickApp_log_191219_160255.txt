@@ -1,0 +1,21 @@
+2019-12-19T16:03:25|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 90, in saving_pressure_1
+    self.saved_pressures[0] = self.set_pressure_1.val
+IndexError: list assignment index out of range
+
+2019-12-19T16:04:09|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\CameraJoystickMeasurement.py", line 203, in run
+    [frame, dims] = self.camera.hamamatsu.getLastFrame()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 1189, in getLastFrame
+    hc_data.copyData(paramlock.buf)
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 308, in copyData
+    ctypes.memmove(self.np_array.ctypes.data, address, self.size) #copies self.size bytes from address into self.np_array.ctyps.data
+OSError: exception: access violation reading 0x0000000000000000
+
+2019-12-19T16:04:09|ERROR|CameraJoystickMeasurement|CameraJoystickMeasurement Failed to update figure1: 'JoyStick_HW' object has no attribute 'joystick_dev'. ['Traceback (most recent call last):\n', '  File "C:\\ProgramData\\Anaconda3\\lib\\site-packages\\ScopeFoundry\\measurement.py", line 273, in _on_display_update_timer\n    self.update_display()\n', '  File "C:\\LabPrograms\\Python\\Microscopes\\ProChipMicroscopeJoystick\\CameraJoystickMeasurement.py", line 115, in update_display\n    + self.sensitivity_dict[self.settings[\'sensitivity\']]*(1 + self.joystick_hw.joystick_dev.get_axis_values(AXIS_R2))\n', "AttributeError: 'JoyStick_HW' object has no attribute 'joystick_dev'\n"]

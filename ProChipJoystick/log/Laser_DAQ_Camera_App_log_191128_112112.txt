@@ -1,0 +1,57 @@
+2019-11-28T11:21:33|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM7': PermissionError(13, 'Accesso negato.', None, 5)
+
+2019-11-28T11:25:43|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 203, in run
+    self.initH5()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraMeasurement.py", line 338, in initH5
+    self.h5file = h5_io.h5_base_file(app=self.app, measurement=self, fname = fname)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\h5_io.py", line 70, in h5_base_file
+    h5_save_app_lq(app, root)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\h5_io.py", line 75, in h5_save_app_lq
+    h5_app_group = h5group.create_group('app/')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\group.py", line 60, in create_group
+    gid = h5g.create(self.id, name, lcpl=lcpl, gcpl=gcpl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5g.pyx", line 161, in h5py.h5g.create
+ValueError: Unable to create group (name already exists)
+
+2019-11-28T11:26:32|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 203, in run
+    self.initH5()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraMeasurement.py", line 338, in initH5
+    self.h5file = h5_io.h5_base_file(app=self.app, measurement=self, fname = fname)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\h5_io.py", line 70, in h5_base_file
+    h5_save_app_lq(app, root)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\h5_io.py", line 75, in h5_save_app_lq
+    h5_app_group = h5group.create_group('app/')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\group.py", line 60, in create_group
+    gid = h5g.create(self.id, name, lcpl=lcpl, gcpl=gcpl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5g.pyx", line 161, in h5py.h5g.create
+ValueError: Unable to create group (name already exists)
+

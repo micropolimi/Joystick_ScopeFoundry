@@ -1,0 +1,14 @@
+2020-02-26T18:09:37|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\Laser_DAQ_Camera_App.py", line 51, in <module>
+    app = Laser_DAQ_Camera_App(sys.argv)
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 16, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 332, in __init__
+    self.setup()
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\Laser_DAQ_Camera_App.py", line 37, in setup
+    from DAQ_Laser_Camera.Camera_dual_save_dvp import Camera_dual_save
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\Camera_dual_save_dvp.py", line 229
+    self.image_h5_0[sub_index = 0, :, :] = self.image_on_the_run_even  # saving to the h5 dataset
+                              ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,23 @@
+2019-12-18T12:49:37|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T12:49:53|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T12:50:00|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 70, in apply_saved_pressure
+    self.pressure=self.MFCS.set_pressure_1channel(self.a)
+AttributeError: 'MFCSHardware' object has no attribute 'a'
+
+2019-12-18T12:50:03|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 70, in apply_saved_pressure
+    self.pressure=self.MFCS.set_pressure_1channel(self.a)
+AttributeError: 'MFCSHardware' object has no attribute 'a'
+
+2019-12-18T12:50:04|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 70, in apply_saved_pressure
+    self.pressure=self.MFCS.set_pressure_1channel(self.a)
+AttributeError: 'MFCSHardware' object has no attribute 'a'
+

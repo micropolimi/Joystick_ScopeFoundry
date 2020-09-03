@@ -1,0 +1,19 @@
+2019-06-26T10:26:23|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\Laser_DAQ_Camera_App.py", line 46, in <module>
+    app = Laser_DAQ_Camera_App(sys.argv)
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 16, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 334, in __init__
+    self.setup_default_ui()
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 56, in setup_default_ui
+    measure.setup_figure()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\temp_measurement2.py", line 43, in setup_figure
+    self.canvas1 = FigureCanvas(self.figure1)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\matplotlib\backends\backend_qt5agg.py", line 21, in __init__
+    super().__init__(figure=figure)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\matplotlib\backends\backend_qt5.py", line 227, in __init__
+    super().__init__(figure=figure)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\matplotlib\backend_bases.py", line 1618, in __init__
+    figure.set_canvas(self)
+AttributeError: 'AxesImage' object has no attribute 'set_canvas'
+

@@ -1,0 +1,14 @@
+2020-03-03T11:25:31|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\ProChipJoystick\ProChipJoystickApp.py", line 54, in <module>
+    app = ProChipJoystickApp(sys.argv)
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 16, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 332, in __init__
+    self.setup()
+  File "C:\LabPrograms\Python\ProChipJoystick\ProChipJoystickApp.py", line 30, in setup
+    from ProChipJoystick.SyncreadoutTriggerJoystickCounterMeasurement import SyncreadoutTriggerJoystickCounterMeasurement
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 341
+    + self.sensitivity_dict[self.settings['sensitivity']]*(self.joystick_hw.joystick_dev.get_axis_values(T_ANALOG)) \
+                                                                                                                                                              ^
+SyntaxError: unexpected character after line continuation character
+

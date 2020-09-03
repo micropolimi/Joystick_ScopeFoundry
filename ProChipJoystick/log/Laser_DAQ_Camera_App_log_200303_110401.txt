@@ -1,0 +1,28 @@
+2020-03-03T11:04:32|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 139, in saving_pressure_3
+    self.saved_pressures[2] = self.set_pressure_3.val
+IndexError: list assignment index out of range
+
+2020-03-03T11:04:32|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 146, in saving_pressure_4
+    self.saved_pressures[3] = self.set_pressure_4.val
+IndexError: list assignment index out of range
+
+2020-03-03T11:04:46|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 118, in setting_saved_pressure
+    self.settings["set_pressure_3"] = self.saved_pressures[2]
+IndexError: list index out of range
+
+2020-03-03T11:05:10|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 118, in setting_saved_pressure
+    self.settings["set_pressure_3"] = self.saved_pressures[2]
+IndexError: list index out of range
+

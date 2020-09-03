@@ -1,0 +1,13 @@
+2019-02-06T16:50:16|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 311, in update_choice_index_value
+    self.update_value(self.choices[new_choice_index][1], **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 153, in set_laser_status
+    fullresp = self.write_cmd('SOURce:AM:STATe '+cmd) # cmd = ON|OFF
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 25, in write_cmd
+    self.ser.write(serialcmd.encode())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 315, in write
+    raise SerialException("WriteFile failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: WriteFile failed (PermissionError(13, 'Il dispositivo non riconosce il comando.', None, 22))
+

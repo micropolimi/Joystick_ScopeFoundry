@@ -1,0 +1,17 @@
+2019-02-06T11:01:20|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Admin\eclipse-workspace\Laser_DAQ_Camera\Laser_DAQ_Camera_App.py", line 34, in <module>
+    app = Laser_DAQ_Camera_App(sys.argv)
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 16, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 332, in __init__
+    self.setup()
+  File "C:\Users\Admin\eclipse-workspace\Laser_DAQ_Camera\Laser_DAQ_Camera_App.py", line 22, in setup
+    self.add_measurement(HamamatsuMeasurement(self))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 93, in __init__
+    self.setup()
+  File "C:\LabPrograms\Python\Camera-ScopeFoundry\CameraMeasurement.py", line 34, in setup
+    self.camera = self.app.hardware['HamamatsuHardware']
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\helper_funcs.py", line 31, in __getitem__
+    return self._odict[key]
+KeyError: 'HamamatsuHardware'
+

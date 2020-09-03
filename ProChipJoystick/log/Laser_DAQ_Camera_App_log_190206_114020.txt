@@ -1,0 +1,22 @@
+2019-02-06T11:40:28|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\Users\Admin\eclipse-workspace\Laser_DAQ_Camera\DaqControlledMeasurement.py", line 27, in run
+    self.ni.write_value()
+  File "C:\LabPrograms\Python\nidaqmx_test\ni_do_hardware.py", line 46, in write_value
+    self.DO_device.write(self.value.val)
+  File "C:\LabPrograms\Python\nidaqmx_test\ni_do_device.py", line 27, in write
+    self.task.write(bool(value))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\nidaqmx\task.py", line 1169, in write
+    channels_to_write = self.channels
+  File "C:\ProgramData\Anaconda3\lib\site-packages\nidaqmx\task.py", line 168, in channels
+    self._handle, flatten_channel_string(self.channel_names))
+  File "C:\ProgramData\Anaconda3\lib\site-packages\nidaqmx\task.py", line 199, in channel_names
+    check_for_error(size_or_code)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\nidaqmx\errors.py", line 127, in check_for_error
+    raise DaqError(error_buffer.value.decode("utf-8"), error_code)
+nidaqmx.errors.DaqError: Task specified is invalid or does not exist.
+Status Code: -200088
+

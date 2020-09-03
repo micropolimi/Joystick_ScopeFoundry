@@ -1,0 +1,11 @@
+2019-02-13T10:36:30|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\DaqControlledMeasurement.py", line 36, in run
+    self.set_all_parameters()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\DaqControlledMeasurement.py", line 206, in set_all_parameters
+    print(self.ni_co_1.is_connected_to_hardware())
+AttributeError: 'NI_CO_hw' object has no attribute 'is_connected_to_hardware'
+

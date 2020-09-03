@@ -1,0 +1,15 @@
+2019-12-13T12:07:38|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\ProChipJoystickApp.py", line 22, in <module>
+    app = ProChipJoystickApp(sys.argv)
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 16, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 332, in __init__
+    self.setup()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\ProChipJoystickApp.py", line 10, in setup
+    from FluigentHardwareUpdated.PumpHardware import MFCSHardware
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 2, in <module>
+    from FluigentHardwareUpdated.PumpDevice import MFCSDevice
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpDevice.py", line 6, in <module>
+    from FluigentHardwareUpdated.PumpHardware import MFCSHardware
+ImportError: cannot import name 'MFCSHardware' from 'FluigentHardwareUpdated.PumpHardware' (C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py)
+

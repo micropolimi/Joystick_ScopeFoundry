@@ -1,0 +1,87 @@
+2019-12-16T19:36:29|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:30|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:31|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:31|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:32|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:35|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:36|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:37|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:37|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:38|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:39|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:39|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:40|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:41|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:42|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:43|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:44|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:45|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:46|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:47|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:48|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:49|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:50|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:51|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:53|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:54|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:54|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:56|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:57|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:36:58|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:00|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:00|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:01|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:02|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:03|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:04|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:05|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:06|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:06|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:07|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:09|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:09|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:10|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:11|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:11|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:12|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:13|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:13|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:14|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:15|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:16|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:17|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:17|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:18|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:19|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:20|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:24|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:25|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:25|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:27|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:28|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:30|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:32|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:37|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:38|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:39|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:48|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:48|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:49|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:50|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:50|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:37:58|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:38:00|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-16T19:38:09|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\CameraJoystickMeasurement.py", line 200, in run
+    [frame, dims] = self.camera.hamamatsu.getLastFrame()
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 1189, in getLastFrame
+    hc_data.copyData(paramlock.buf)
+  File "C:\LabPrograms\Python\Hamamatsu_ScopeFoundry\CameraDevice.py", line 308, in copyData
+    ctypes.memmove(self.np_array.ctypes.data, address, self.size) #copies self.size bytes from address into self.np_array.ctyps.data
+OSError: exception: access violation reading 0x0000000000000000
+
+2019-12-16T19:38:09|ERROR|HamamatsuMeasurement|HamamatsuMeasurement Failed to update figure1: 'JoyStick_HW' object has no attribute 'joystick_dev'. ['Traceback (most recent call last):\n', '  File "C:\\ProgramData\\Anaconda3\\lib\\site-packages\\ScopeFoundry\\measurement.py", line 273, in _on_display_update_timer\n    self.update_display()\n', '  File "C:\\LabPrograms\\Python\\Microscopes\\ProChipMicroscopeJoystick\\CameraJoystickMeasurement.py", line 114, in update_display\n    + self.sensitivity_dict[self.settings[\'sensitivity\']]*(1 + self.joystick_hw.joystick_dev.get_axis_values(AXIS_R2))\n', "AttributeError: 'JoyStick_HW' object has no attribute 'joystick_dev'\n"]

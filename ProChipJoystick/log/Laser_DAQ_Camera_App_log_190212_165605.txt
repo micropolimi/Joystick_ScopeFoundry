@@ -1,0 +1,18 @@
+2019-02-12T16:56:36|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\DaqControlledMeasurement.py", line 36, in run
+    self.set_all_parameters()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\DaqControlledMeasurement.py", line 211, in set_all_parameters
+    if self.camera.exposure_time < 1/self.camera.internal_frame_rate.val:
+TypeError: '<' not supported between instances of 'LoggedQuantity' and 'float'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\DaqControlledMeasurement.py", line 174, in run
+    self.h5file.close() # close h5 file
+AttributeError: 'DaqControlledMeasurement' object has no attribute 'h5file'
+

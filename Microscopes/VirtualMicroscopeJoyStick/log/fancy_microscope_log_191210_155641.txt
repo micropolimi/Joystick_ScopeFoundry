@@ -1,0 +1,14 @@
+2019-12-10T15:56:41|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\Microscopes\VirtualMicroscopeJoyStick\JoystickApp.py", line 44, in <module>
+    app = FancyMicroscopeApp(sys.argv)
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundry\base_app.py", line 338, in __init__
+    self.setup()
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\Microscopes\VirtualMicroscopeJoyStick\JoystickApp.py", line 19, in setup
+    from ScopeFoundryHW.virtual_function_gen.vfunc_gen_hw import VirtualFunctionGenHW
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\virtual_function_gen\__init__.py", line 5, in <module>
+    from .vfunc_gen_hw import VirtualFunctionGenHW
+  File "C:\Users\Matteo\eclipse-workspace\scopefoundry\ScopeFoundryHW\virtual_function_gen\vfunc_gen_hw.py", line 14
+    self.settings.New(name='amplitude', initial=1.0, dtype=float, ro=False, setRange(0, 25))
+                                                                           ^
+SyntaxError: positional argument follows keyword argument
+

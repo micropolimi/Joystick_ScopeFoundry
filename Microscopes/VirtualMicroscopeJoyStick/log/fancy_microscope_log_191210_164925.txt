@@ -1,0 +1,7 @@
+2019-12-10T16:59:33|WARNING|LoggedQuantity|sine_data read_from_hardware called when not connected to hardware
+2019-12-10T16:59:33|ERROR|SineWaveJoyStickMeasure|sine_wave_joystick Failed to update figure1: 'JoyStick_HW' object has no attribute 'joystick_dev'. ['Traceback (most recent call last):\n', '  File "C:\\Users\\Matteo\\eclipse-workspace\\scopefoundry\\ScopeFoundry\\measurement.py", line 279, in _on_display_update_timer\n    self.update_display()\n', '  File "C:\\Users\\Matteo\\eclipse-workspace\\scopefoundry\\Microscopes\\VirtualMicroscopeJoyStick\\SineGenJoyStick_measure.py", line 103, in update_display\n    + RESOLUTION*self.joystick.joystick_dev.get_hat_values(1) + 10**2*RESOLUTION*self.joystick.joystick_dev.get_hat_values(0)\n', "AttributeError: 'JoyStick_HW' object has no attribute 'joystick_dev'\n"]
+2019-12-10T16:59:33|WARNING|LoggedQuantity|sine_data read_from_hardware called when not connected to hardware
+2019-12-10T16:59:33|WARNING|LoggedQuantity|sine_data read_from_hardware called when not connected to hardware
+2019-12-10T16:59:33|WARNING|LoggedQuantity|sine_data read_from_hardware called when not connected to hardware
+2019-12-10T16:59:33|WARNING|LoggedQuantity|sine_data read_from_hardware called when not connected to hardware
+2019-12-10T16:59:33|WARNING|LoggedQuantity|sine_data read_from_hardware called when not connected to hardware

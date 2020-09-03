@@ -1,0 +1,14 @@
+2019-12-18T13:08:12|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 76, in setall_zeropressure
+    self.MFCS.setall_zeropressure()
+TypeError: setall_zeropressure() missing 1 required positional argument: 'B'
+
+2019-12-18T13:08:12|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 160, in <lambda>
+    op_button.clicked.connect(lambda checked, f=op_func: f())
+  File "C:\LabPrograms\Python\FluigentHardwareUpdated\PumpHardware.py", line 71, in apply_saved_pressure
+    self.pressure=self.MFCS.set_pressure_1channel(self.a)
+AttributeError: 'MFCSHardware' object has no attribute 'a'
+

@@ -1,0 +1,13 @@
+2020-03-04T13:39:09|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\ProChipJoystick\ProChipJoystickApp.py", line 54, in <module>
+    app = ProChipJoystickApp(sys.argv)
+  File "C:\LabPrograms\Python\BaseMicroscopeModified_ScopeFoundry\BaseMicroscopeAppModified.py", line 16, in __init__
+    super().__init__(*kwds) # *kwds is needed since in the main we pass as argument sys.argv. Without
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\base_app.py", line 332, in __init__
+    self.setup()
+  File "C:\LabPrograms\Python\ProChipJoystick\ProChipJoystickApp.py", line 30, in setup
+    from ProChipJoystick.SyncreadoutTriggerJoystickCounterMeasurement import SyncreadoutTriggerJoystickCounterMeasurement
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 13, in <module>
+    from gevent.libev.corecext import self
+ImportError: cannot import name 'self' from 'gevent.libev.corecext' (C:\ProgramData\Anaconda3\lib\site-packages\gevent\libev\corecext.cp37-win_amd64.pyd)
+

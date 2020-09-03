@@ -1,0 +1,9 @@
+2020-02-17T17:37:11|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ_Laser_Camera\SyncreadoutTriggerCounterMeasurement_dvp.py", line 212, in run
+    self.update_cell_counter(self.np_data1,self.settings.counter_threshold.val)
+AttributeError: 'SyncreadoutTriggerCounterMeasurement' object has no attribute 'np_data1'
+

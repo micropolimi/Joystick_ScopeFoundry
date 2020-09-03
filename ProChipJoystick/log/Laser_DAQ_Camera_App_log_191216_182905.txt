@@ -1,0 +1,442 @@
+2019-12-16T18:29:24|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 78, in open
+    self._reconfigure_port()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 222, in _reconfigure_port
+    'Original message: {!r}'.format(ctypes.WinError()))
+serial.serialutil.SerialException: Cannot configure port, something went wrong. Original message: OSError(22, 'Parametro non corretto.', None, 87)
+
+2019-12-16T18:29:25|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 78, in open
+    self._reconfigure_port()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 222, in _reconfigure_port
+    'Original message: {!r}'.format(ctypes.WinError()))
+serial.serialutil.SerialException: Cannot configure port, something went wrong. Original message: OSError(22, 'Parametro non corretto.', None, 87)
+
+2019-12-16T18:29:28|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 78, in open
+    self._reconfigure_port()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 222, in _reconfigure_port
+    'Original message: {!r}'.format(ctypes.WinError()))
+serial.serialutil.SerialException: Cannot configure port, something went wrong. Original message: OSError(22, 'Parametro non corretto.', None, 87)
+
+2019-12-16T18:29:36|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 47, in connect
+    self.laser_power.change_min_max(vmin=self.laser.get_minimum_power(), vmax=self.laser.get_maximum_power())
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 78, in get_minimum_power
+    fullresp = self.write_cmd('SOURce:POWer:LIMit:LOW?')
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 36, in write_cmd
+    echo=echo.splitlines()[0]
+IndexError: list index out of range
+
+2019-12-16T18:29:50|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 47, in connect
+    self.laser_power.change_min_max(vmin=self.laser.get_minimum_power(), vmax=self.laser.get_maximum_power())
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 78, in get_minimum_power
+    fullresp = self.write_cmd('SOURce:POWer:LIMit:LOW?')
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 36, in write_cmd
+    echo=echo.splitlines()[0]
+IndexError: list index out of range
+
+2019-12-16T18:29:58|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 47, in connect
+    self.laser_power.change_min_max(vmin=self.laser.get_minimum_power(), vmax=self.laser.get_maximum_power())
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 78, in get_minimum_power
+    fullresp = self.write_cmd('SOURce:POWer:LIMit:LOW?')
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 36, in write_cmd
+    echo=echo.splitlines()[0]
+IndexError: list index out of range
+
+2019-12-16T18:30:02|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 78, in open
+    self._reconfigure_port()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 222, in _reconfigure_port
+    'Original message: {!r}'.format(ctypes.WinError()))
+serial.serialutil.SerialException: Cannot configure port, something went wrong. Original message: OSError(22, 'Parametro non corretto.', None, 87)
+
+2019-12-16T18:30:06|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 78, in open
+    self._reconfigure_port()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 222, in _reconfigure_port
+    'Original message: {!r}'.format(ctypes.WinError()))
+serial.serialutil.SerialException: Cannot configure port, something went wrong. Original message: OSError(22, 'Parametro non corretto.', None, 87)
+
+2019-12-16T18:30:16|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 47, in connect
+    self.laser_power.change_min_max(vmin=self.laser.get_minimum_power(), vmax=self.laser.get_maximum_power())
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 78, in get_minimum_power
+    fullresp = self.write_cmd('SOURce:POWer:LIMit:LOW?')
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 36, in write_cmd
+    echo=echo.splitlines()[0]
+IndexError: list index out of range
+
+2019-12-16T18:30:53|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': OSError(22, 'La risorsa richiesta è in uso.', None, 170)
+
+2019-12-16T18:31:00|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM7': PermissionError(13, 'Accesso negato.', None, 5)
+
+2019-12-16T18:31:03|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM6': PermissionError(13, 'Accesso negato.', None, 5)
+
+2019-12-16T18:31:05|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM6': PermissionError(13, 'Accesso negato.', None, 5)
+
+2019-12-16T18:31:07|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM7': PermissionError(13, 'Accesso negato.', None, 5)
+
+2019-12-16T18:31:08|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM7': PermissionError(13, 'Accesso negato.', None, 5)
+
+2019-12-16T18:31:11|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 78, in open
+    self._reconfigure_port()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 222, in _reconfigure_port
+    'Original message: {!r}'.format(ctypes.WinError()))
+serial.serialutil.SerialException: Cannot configure port, something went wrong. Original message: OSError(22, 'Parametro non corretto.', None, 87)
+
+2019-12-16T18:31:13|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 78, in open
+    self._reconfigure_port()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 222, in _reconfigure_port
+    'Original message: {!r}'.format(ctypes.WinError()))
+serial.serialutil.SerialException: Cannot configure port, something went wrong. Original message: OSError(22, 'Parametro non corretto.', None, 87)
+
+2019-12-16T18:31:15|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': OSError(22, 'La risorsa richiesta è in uso.', None, 170)
+
+2019-12-16T18:31:22|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': OSError(22, 'La risorsa richiesta è in uso.', None, 170)
+
+2019-12-16T18:32:14|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': OSError(22, 'La risorsa richiesta è in uso.', None, 170)
+
+2019-12-16T18:32:16|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM7': PermissionError(13, 'Accesso negato.', None, 5)
+
+2019-12-16T18:32:18|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM7': PermissionError(13, 'Accesso negato.', None, 5)
+
+2019-12-16T18:32:20|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM6': PermissionError(13, 'Accesso negato.', None, 5)
+
+2019-12-16T18:32:21|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM6': PermissionError(13, 'Accesso negato.', None, 5)
+
+2019-12-16T18:32:23|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 78, in open
+    self._reconfigure_port()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 222, in _reconfigure_port
+    'Original message: {!r}'.format(ctypes.WinError()))
+serial.serialutil.SerialException: Cannot configure port, something went wrong. Original message: OSError(22, 'Parametro non corretto.', None, 87)
+
+2019-12-16T18:32:26|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 208, in enable_connection
+    raise err
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\hardware.py", line 204, in enable_connection
+    self.connect()
+  File "C:\LabPrograms\Python\laser\laser_hardware.py", line 35, in connect
+    self.laser = LaserDevice(port=self.port.val, debug=self.debug_mode.val)
+  File "C:\LabPrograms\Python\laser\laser_device.py", line 16, in __init__
+    stopbits=1, xonxoff=False, timeout=3.0)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 31, in __init__
+    super(Serial, self).__init__(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialutil.py", line 240, in __init__
+    self.open()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\serial\serialwin32.py", line 62, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'COM4': OSError(22, 'La risorsa richiesta è in uso.', None, 170)
+

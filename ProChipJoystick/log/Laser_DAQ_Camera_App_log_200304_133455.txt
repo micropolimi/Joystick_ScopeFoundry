@@ -1,0 +1,67 @@
+2020-03-04T13:35:16|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 186, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq'])
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 565, in start_triggered_Acquisition
+    self.camera.hamamatsu.startAcquisition()
+AttributeError: 'HamamatsuHardware' object has no attribute 'hamamatsu'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 318, in run
+    self.stop_triggered_Acquisition()
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 587, in stop_triggered_Acquisition
+    self.camera.hamamatsu.stopAcquisition()
+AttributeError: 'HamamatsuHardware' object has no attribute 'hamamatsu'
+
+2020-03-04T13:35:16|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pyqtgraph\graphicsItems\HistogramLUTItem.py", line 195, in imageChanged
+    h = self.imageItem().getHistogram()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pyqtgraph\graphicsItems\ImageItem.py", line 464, in getHistogram
+    bins = np.arange(mn, mx+1.01*step, step, dtype=np.int)
+ValueError: arange: cannot compute length
+
+2020-03-04T13:35:46|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 186, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq'])
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 565, in start_triggered_Acquisition
+    self.camera.hamamatsu.startAcquisition()
+AttributeError: 'HamamatsuHardware' object has no attribute 'hamamatsu'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 318, in run
+    self.stop_triggered_Acquisition()
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 587, in stop_triggered_Acquisition
+    self.camera.hamamatsu.stopAcquisition()
+AttributeError: 'HamamatsuHardware' object has no attribute 'hamamatsu'
+
+2020-03-04T13:36:23|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 186, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq'])
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 565, in start_triggered_Acquisition
+    self.camera.hamamatsu.startAcquisition()
+AttributeError: 'HamamatsuHardware' object has no attribute 'hamamatsu'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 318, in run
+    self.stop_triggered_Acquisition()
+  File "C:\LabPrograms\Python\ProChipJoystick\SyncreadoutTriggerJoystickCounterMeasurement.py", line 587, in stop_triggered_Acquisition
+    self.camera.hamamatsu.stopAcquisition()
+AttributeError: 'HamamatsuHardware' object has no attribute 'hamamatsu'
+

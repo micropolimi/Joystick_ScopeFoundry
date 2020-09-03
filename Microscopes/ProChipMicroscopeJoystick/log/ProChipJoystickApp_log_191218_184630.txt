@@ -1,0 +1,6 @@
+2019-12-18T18:46:41|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T18:46:52|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\logged_quantity.py", line 241, in update_value
+    self.hardware_set_func(self.val)
+TypeError: save_p() takes 1 positional argument but 2 were given
+

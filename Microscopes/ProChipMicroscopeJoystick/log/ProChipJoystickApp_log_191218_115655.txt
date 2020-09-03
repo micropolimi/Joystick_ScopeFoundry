@@ -1,0 +1,118 @@
+2019-12-18T11:57:22|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:24|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:24|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:29|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:29|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:30|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:31|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:34|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:35|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:35|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:36|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:37|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:37|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:38|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:38|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:39|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:40|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:41|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:43|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:44|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:44|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:45|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:46|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:47|WARNING|LoggedQuantity|set_pressure_1 read_from_hardware called when not connected to hardware
+2019-12-18T11:57:55|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\files.py", line 162, in make_fid
+    fid = h5f.open(name, h5f.ACC_RDWR, fapl=fapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'D:\Data\Nuova_Cartella\191218_115755_HamamatsuMeasurement.h5', errno = 2, error message = 'No such file or directory', flags = 1, o_flags = 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\files.py", line 165, in make_fid
+    fid = h5f.open(name, h5f.ACC_RDONLY, fapl=fapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'D:\Data\Nuova_Cartella\191218_115755_HamamatsuMeasurement.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\CameraJoystickMeasurement.py", line 214, in run
+    self.initH5()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\CameraJoystickMeasurement.py", line 346, in initH5
+    self.h5file = h5_io.h5_base_file(app=self.app, measurement=self)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\h5_io.py", line 65, in h5_base_file
+    h5_file = h5py.File(fname)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\files.py", line 312, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\files.py", line 167, in make_fid
+    fid = h5f.create(name, h5f.ACC_EXCL, fapl=fapl, fcpl=fcpl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5f.pyx", line 98, in h5py.h5f.create
+OSError: Unable to create file (unable to open file: name = 'D:\Data\Nuova_Cartella\191218_115755_HamamatsuMeasurement.h5', errno = 2, error message = 'No such file or directory', flags = 15, o_flags = 502)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\CameraJoystickMeasurement.py", line 297, in run
+    self.h5file.close() # close h5 file
+AttributeError: 'HamamatsuMeasurement' object has no attribute 'h5file'
+
+2019-12-18T11:58:06|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\files.py", line 162, in make_fid
+    fid = h5f.open(name, h5f.ACC_RDWR, fapl=fapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'D:\Data\Nuova_Cartella\191218_115806_HamamatsuMeasurement.h5', errno = 2, error message = 'No such file or directory', flags = 1, o_flags = 2)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\files.py", line 165, in make_fid
+    fid = h5f.open(name, h5f.ACC_RDONLY, fapl=fapl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5f.pyx", line 78, in h5py.h5f.open
+OSError: Unable to open file (unable to open file: name = 'D:\Data\Nuova_Cartella\191218_115806_HamamatsuMeasurement.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\CameraJoystickMeasurement.py", line 214, in run
+    self.initH5()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\CameraJoystickMeasurement.py", line 346, in initH5
+    self.h5file = h5_io.h5_base_file(app=self.app, measurement=self)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\h5_io.py", line 65, in h5_base_file
+    h5_file = h5py.File(fname)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\files.py", line 312, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, swmr=swmr)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\h5py\_hl\files.py", line 167, in make_fid
+    fid = h5f.create(name, h5f.ACC_EXCL, fapl=fapl, fcpl=fcpl)
+  File "h5py\_objects.pyx", line 54, in h5py._objects.with_phil.wrapper
+  File "h5py\_objects.pyx", line 55, in h5py._objects.with_phil.wrapper
+  File "h5py\h5f.pyx", line 98, in h5py.h5f.create
+OSError: Unable to create file (unable to open file: name = 'D:\Data\Nuova_Cartella\191218_115806_HamamatsuMeasurement.h5', errno = 2, error message = 'No such file or directory', flags = 15, o_flags = 502)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\Microscopes\ProChipMicroscopeJoystick\CameraJoystickMeasurement.py", line 297, in run
+    self.h5file.close() # close h5 file
+AttributeError: 'HamamatsuMeasurement' object has no attribute 'h5file'
+

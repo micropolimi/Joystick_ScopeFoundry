@@ -1,0 +1,15 @@
+2019-06-10T12:13:06|CRITICAL|root|Unhandled exception:Traceback (most recent call last):
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 25, in run
+    self.measurement._thread_run()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\ScopeFoundry\measurement.py", line 179, in _thread_run
+    self.run()
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 46, in run
+    self.start_triggered_Acquisition(self.settings['Acq_freq']) #Insert here the variable!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 257, in start_triggered_Acquisition
+    self.start_digital_rising_edge(self.ni_do_1)
+  File "C:\LabPrograms\Python\DAQ-Laser-Camera\SyncreadoutTriggerMeasurement.py", line 199, in start_digital_rising_edge
+    digitalHW.write_value()
+  File "C:\LabPrograms\Python\nidaqmx_test\ni_do_hardware.py", line 44, in write_value
+    self.DO_device.write(self.value.val)
+AttributeError: 'NI_DO_hw' object has no attribute 'DO_device'
+
